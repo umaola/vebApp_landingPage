@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', 'sans-serif';
+    background-image:url("images/image4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    background-color: #1a5333;
+    
+}
+.navbar .nav-brand img{
+    width: 10rem;
+    padding: 1.5em .5em .9em 3em;
+}
+.container{
+    max-width: 980px;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2em;
+    margin-left: 3em;
+}
+.container .container-text{
+    width: 50%;
+}
+.countdowm-timer{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    margin-top: -2em;
+}
+.countdowm-timer div{
+    flex-basis: 5.2rem;
+}
+.countdowm-timer div p{
+    border: 1px solid white;
+    border-radius:50%;
+    font-size: 3rem;
+    margin-bottom: -.3rem;
+}
+.submit{
+    margin-top: 2em;
+}
+.submit input{
+    height: auto;
+    padding: .9em 10em .9em .9em ;
+    border: 1px solid white;
+    border-radius:30px;
+    font-family: 'Poppins', 'sans-serif';
+}
+.submit button{
+    background-color: #1a5333;
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    padding: .9em;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.container-image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3em;
+}
+.container-image img{
+    height: 21rem;
+    margin-top: 2em;
+
+}
+
+    /* SITE RESPONSIVENESS */
+
+@media screen and (max-width: 480px) {
+    body{
+        background-image:url("images/image4.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-size: 10px;
+        overflow: scroll;
+    }
+    .navbar .nav-brand img{
+        width: 5rem;
+        padding: 1.2em 0 .9em 2em;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-left: .5em;
+    }
+    .container-image{
+        display: none;
+    }
+    .countdowm-timer{
+        display: flex;
+        gap: .5rem;
+        text-align: center;
+        margin-top: -2em;
+    }
+    .countdowm-timer div{
+        flex-basis: 3rem;
+    }
+    .countdowm-timer div p{
+        border-radius:50%;
+        font-size: 1.5rem;
+        margin-bottom: -.2rem;
+    }
+    .submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .3rem;
+        margin-top: .5em;
+    }
+    .submit input{
+        font-size: .5rem;
+        padding: .2em .7em .2em .4em ;
+    }
+    .submit button{
+        padding: .2em .4em .2em .4em;
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        font-size: 10px;
+        overflow: scroll;
+    }
+    .navbar .nav-brand img{
+        width: 5rem;
+        padding: 1.2em 0 .9em 2em;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-left: .5em;
+    }
+    .container-image{
+        display: none;
+    }
+    .countdowm-timer{
+        display: flex;
+        gap: .5rem;
+        text-align: center;
+        margin-top: -2em;
+    }
+    .countdowm-timer div{
+        flex-basis: 3rem;
+    }
+    .countdowm-timer div p{
+        border-radius:50%;
+        font-size: 1.5rem;
+        margin-bottom: -.2rem;
+    }
+    .submit{
+        margin-top: .5em;
+    }
+    .submit input{
+        font-size: .5rem;
+        padding: .2em .7em .2em .4em ;
+    }
+    .submit button{
+        padding: .2em .4em .2em .4em;
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 15px;
+        overflow: scroll;
+    }
+    .navbar .nav-brand img{
+        width: 7rem;
+        padding: 1.5em .5em .9em 3em;;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2em;
+    }
+    .container .container-text{
+        width: 50%;
+        justify-content: center;
+    }
+    .countdowm-timer{
+        display: flex;
+        gap: .8rem;
+        text-align: center;
+        margin-top: -.9em;
+    }
+    .countdowm-timer div{
+        flex-basis: 2rem;
+    }
+    .countdowm-timer div p{
+        border-radius:50%;
+        font-size: 1.2rem;
+        margin-bottom: -.2rem;
+    }
+    .countdowm-timer div span{
+        font-size: .9rem;
+    }
+    .submit{
+        margin-top: 1.5em;
+    }
+    .submit input{
+        font-size: .7rem;
+        padding: .3em .9em .3em .4em ;
+    }
+    .submit button{
+        padding: .3em .4em .3em .4em;
+        border-radius: 30px;
+        font-size: .7rem;
+    }
+    .container-image{
+        width: 50%;
+    }
+    .container-image img{
+        height: 15rem;
+        padding: 0 9em 0 0;
+        margin-top: 2em;
+    }
+}
