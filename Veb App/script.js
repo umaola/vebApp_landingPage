@@ -6,7 +6,7 @@ const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
 
 const currentYear = new Date().setFullYear(2022);
-const newYearTime = new Date('January 1, 2023 00:00:00');
+const newYearTime = new Date('January 1, 2024 00:00:00');
 
 
 setInterval(function updateCountdownTime() {
